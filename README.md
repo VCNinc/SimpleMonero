@@ -4,7 +4,7 @@ SimpleMonero is an all-in-one BASH script for installing Monero coin mining soft
 How do I install SimpleMonero?
 ------------------------------
 
-To install SimpleMonero, simply run these three lines on your Ubuntu server:
+To install SimpleMonero, simply run this one simple line of code on your Ubuntu server:
 
     wget https://raw.githubusercontent.com/vcninc/SimpleMonero/master/script & chmod +x script & ./script
     
