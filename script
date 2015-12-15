@@ -1,6 +1,6 @@
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm git make
+sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm git make -y
 git clone https://github.com/lucasjones/cpuminer-multi.git
 cd cpuminer-multi
 ./autogen.sh
