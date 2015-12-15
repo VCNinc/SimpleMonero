@@ -1,0 +1,9 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm git make
+git clone https://github.com/lucasjones/cpuminer-multi.git
+cd cpuminer-multi
+./autogen.sh
+./configure
+make
+screen ./minerd -a cryptonight -t 1 -s 33 -o stratum+tcp://fcn-mro.pool.minergate.com:45590 -u holdings@vcninc.com -p x -P
