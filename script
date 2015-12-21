@@ -6,4 +6,4 @@ cd cpuminer-multi
 ./autogen.sh
 ./configure
 make
-screen ./minerd -a cryptonight -t 1 -s 33 -o stratum+tcp://fcn-mro.pool.minergate.com:45590 -u holdings@vcninc.com -p x -P
+screen ./minerd -a cryptonight -s 33 -o stratum+tcp://fcn-mro.pool.minergate.com:45590 -u holdings@vcninc.com -p x -P
